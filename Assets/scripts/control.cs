@@ -13,7 +13,7 @@ public class control : MonoBehaviour
     public float speed = 1;
     [SerializeField] private float jumpPower = 100;
     private const float groundCheckRadius = 0.2f;
-    private float runSpeedModifier = 2f;
+    public float runSpeedModifier = 2f;
     private bool isRunning = false;
     private bool jump = false;
     [SerializeField] private bool isGrounded = false;
@@ -32,9 +32,11 @@ public class control : MonoBehaviour
     void GroundCheck()
     {
         isGrounded = false;
+        animator.SetBool("Jumping", true);
         Collider2D[] colliders = Physics2D.OverlapCircleAll(groundCheckCollider.position, groundCheckRadius,groundLayer);
         if (colliders.Length > 0)
         {
+            animator.SetBool("Jumping", false);
             isGrounded = true;
         }
     }
@@ -46,28 +48,30 @@ public class control : MonoBehaviour
 		animator.SetFloat("speed",Mathf.Abs(horizontalValue));
         if (Input.GetKeyDown(KeyCode.LeftShift))
         {
+            animator.SetBool("Runing", true);
             isRunning = true;
         }
 
         if (Input.GetKeyUp(KeyCode.LeftShift))
         {
+            animator.SetBool("Runing", false);
             isRunning = false;
         }
 
         if (Input.GetButtonDown("Jump"))
         {
-			animator.SetBool("Jumping",true);
             jump = true;
         }
         else if (Input.GetButtonUp("Jump"))
         {
-			animator.SetBool("Jumping",false);
+			
             jump = false;
         }
     }
 
     void FixedUpdate()
     {
+        
         GroundCheck();
         Move(horizontalValue, jump);
     }
