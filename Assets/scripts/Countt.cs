@@ -8,13 +8,27 @@ public class Countt : MonoBehaviour
     public Text countText;
     void Start()
     {
-        countText.text = "Gyvybes: ";
+        
+        
+        countText.text = "Gyvybės: ";
         scores = 0;
     }
 
-
     void Update()
     {
-        countText.text = "Gyvybes: "+scores;
+        countText.text = "Gyvybės: "+scores;
+        Health(scores);
+    }
+
+    void Health(int scores)
+    {
+        if (scores < 3)
+        {
+            countText.color = Color.red;
+        }
+        else
+        {
+            countText.color = Color.green;
+        }
     }
 }
