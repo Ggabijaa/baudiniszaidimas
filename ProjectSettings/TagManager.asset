@@ -14,7 +14,7 @@ TagManager:
   - UI
   - Background
   - Ground
-  - 
+  - BackgroundDetails
   - lights
   - Player
   - 
@@ -48,9 +48,15 @@ TagManager:
   - name: BackgroundDetails
     uniqueID: 2769024237
     locked: 0
+  - name: Lights
+    uniqueID: 4110336043
+    locked: 0
   - name: Ground
     uniqueID: 1328213703
     locked: 0
   - name: Player
     uniqueID: 1770599531
+    locked: 0
+  - name: Decorations
+    uniqueID: 296852723
     locked: 0
