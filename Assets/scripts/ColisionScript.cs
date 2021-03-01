@@ -8,6 +8,7 @@ public class ColisionScript : MonoBehaviour
 	if(collision.gameObject.tag == "Player"){
 	Destroy(this.gameObject);
 	Debug.Log("Opa ikrito");
+	Countt.scores +=1;
 }
 	
 }
