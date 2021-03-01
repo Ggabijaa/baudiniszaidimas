@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class ColisionScript : MonoBehaviour
 {
-    void OnCollisionEnter2D(Collision2D collision){
-	if(collision.gameObject.tag == "Player"){
-	Destroy(this.gameObject);
-	Debug.Log("Opa ikrito");
-	Countt.scores +=1;
-}
-	
-}
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Player")
+        {
+            Destroy(this.gameObject);
+            Debug.Log("Opa ikrito");
+            Countt.scores += 1;
+        }
+    }
 }
