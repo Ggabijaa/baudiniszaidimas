@@ -10,10 +10,12 @@ public class PlayerController : MonoBehaviour
     private float Speed2 = 0f;
 
     public float Jump = 2f;
+    private int jumped = 1;
 
     private Rigidbody2D _rigidbody2D;
     private bool facingRight = false;
     // Start is called before the first frame update
+   
     void Awake()
     {
         animator = GetComponent<Animator>();
@@ -29,10 +31,18 @@ public class PlayerController : MonoBehaviour
     {
         
         
-        if (Input.GetButtonDown("Jump") && Mathf.Abs(_rigidbody2D.velocity.y) < 0.001f)
+        if (Input.GetButtonDown("Jump") && jumped <=Countt.scores && Countt.scores >0)
         {
-            _rigidbody2D.AddForce(new Vector2(0, Jump), ForceMode2D.Impulse);
-            animator.SetBool("Jump", true);
+            
+                _rigidbody2D.AddForce(new Vector2(0, Jump), ForceMode2D.Impulse);
+                animator.SetBool("Jump", true);
+                jumped++;
+            
+        }
+
+        if (Mathf.Abs(_rigidbody2D.velocity.y) < 0.001f)
+        {
+            jumped = 1;
         }
 
         if (Mathf.Abs(_rigidbody2D.velocity.y) < 0.001f)
