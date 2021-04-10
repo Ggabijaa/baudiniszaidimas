@@ -1,0 +1,528 @@
+fileFormatVersion: 2
+guid: 6229e010a8d9de745b1ed4e920c10e00
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4636776603089346394
+    second: Gunsmoke.png.6ad6f72a4c8ac698dfdfa13b05d13000_1
+  - first:
+      213: -1411958362835462405
+    second: Gunsmoke.png.6ad6f72a4c8ac698dfdfa13b05d13000_3
+  - first:
+      213: -6253711210161778816
+    second: Gunsmoke.png.6ad6f72a4c8ac698dfdfa13b05d13000_5
+  - first:
+      213: -4449332625486265936
+    second: Gunsmoke.png.6ad6f72a4c8ac698dfdfa13b05d13000_7
+  - first:
+      213: 4365713195260348557
+    second: Gunsmoke.png.6ad6f72a4c8ac698dfdfa13b05d13000_9
+  - first:
+      213: 4573490576363711990
+    second: Gunsmoke.png.6ad6f72a4c8ac698dfdfa13b05d13000_10
+  - first:
+      213: -3814894021444960240
+    second: Gunsmoke.png.6ad6f72a4c8ac698dfdfa13b05d13000_11
+  - first:
+      213: 5903718037503803407
+    second: Gunsmoke.png.6ad6f72a4c8ac698dfdfa13b05d13000_12
+  - first:
+      213: -6104677374275019628
+    second: Gunsmoke.png.6ad6f72a4c8ac698dfdfa13b05d13000_13
+  - first:
+      213: 2622337011066339757
+    second: Gunsmoke.png.6ad6f72a4c8ac698dfdfa13b05d13000_14
+  - first:
+      213: 6188281526986903810
+    second: Gunsmoke.png.6ad6f72a4c8ac698dfdfa13b05d13000_15
+  - first:
+      213: 4996179586609335829
+    second: Gunsmoke.png.6ad6f72a4c8ac698dfdfa13b05d13000_16
+  - first:
+      213: -597560603614924485
+    second: Gunsmoke.png.6ad6f72a4c8ac698dfdfa13b05d13000_17
+  - first:
+      213: 894662646316070310
+    second: Gunsmoke.png.6ad6f72a4c8ac698dfdfa13b05d13000_18
+  - first:
+      213: -7040731686717643549
+    second: Gunsmoke.png.6ad6f72a4c8ac698dfdfa13b05d13000_19
+  - first:
+      213: 6659911485848791021
+    second: Gunsmoke.png.6ad6f72a4c8ac698dfdfa13b05d13000_20
+  - first:
+      213: 2481383641733277083
+    second: Gunsmoke.png.6ad6f72a4c8ac698dfdfa13b05d13000_21
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 9
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Gunsmoke.png.6ad6f72a4c8ac698dfdfa13b05d13000_1
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 217
+        width: 53
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5f9bf9f0c3295040800000000000000
+      internalID: 4636776603089346394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunsmoke.png.6ad6f72a4c8ac698dfdfa13b05d13000_3
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 217
+        width: 55
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf6dc819957b76ce0800000000000000
+      internalID: -1411958362835462405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunsmoke.png.6ad6f72a4c8ac698dfdfa13b05d13000_5
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 216
+        width: 55
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08fcd66b9ca5639a0800000000000000
+      internalID: -6253711210161778816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunsmoke.png.6ad6f72a4c8ac698dfdfa13b05d13000_7
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 215
+        width: 54
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b1c55afc8bc042c0800000000000000
+      internalID: -4449332625486265936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunsmoke.png.6ad6f72a4c8ac698dfdfa13b05d13000_9
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 171
+        width: 55
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d888ab24501269c30800000000000000
+      internalID: 4365713195260348557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunsmoke.png.6ad6f72a4c8ac698dfdfa13b05d13000_10
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 170
+        width: 55
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fd61c3a27d487f30800000000000000
+      internalID: 4573490576363711990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunsmoke.png.6ad6f72a4c8ac698dfdfa13b05d13000_11
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 170
+        width: 55
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01003048916ce0bc0800000000000000
+      internalID: -3814894021444960240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunsmoke.png.6ad6f72a4c8ac698dfdfa13b05d13000_12
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 170
+        width: 55
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f000b7f96483ee150800000000000000
+      internalID: 5903718037503803407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunsmoke.png.6ad6f72a4c8ac698dfdfa13b05d13000_13
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 128
+        width: 55
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c19f5a544d74ba0800000000000000
+      internalID: -6104677374275019628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunsmoke.png.6ad6f72a4c8ac698dfdfa13b05d13000_14
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 85
+        width: 55
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da108f92e99646420800000000000000
+      internalID: 2622337011066339757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunsmoke.png.6ad6f72a4c8ac698dfdfa13b05d13000_15
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 128
+        width: 55
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2019a2a034131e550800000000000000
+      internalID: 6188281526986903810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunsmoke.png.6ad6f72a4c8ac698dfdfa13b05d13000_16
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 128
+        width: 55
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51e48e5fcdef55540800000000000000
+      internalID: 4996179586609335829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunsmoke.png.6ad6f72a4c8ac698dfdfa13b05d13000_17
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 85
+        width: 55
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b31b3c90cc905b7f0800000000000000
+      internalID: -597560603614924485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunsmoke.png.6ad6f72a4c8ac698dfdfa13b05d13000_18
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 87
+        width: 55
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a5fa7bcfea7a6c00800000000000000
+      internalID: 894662646316070310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunsmoke.png.6ad6f72a4c8ac698dfdfa13b05d13000_19
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 88
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e4ab5695db4a4e90800000000000000
+      internalID: -7040731686717643549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunsmoke.png.6ad6f72a4c8ac698dfdfa13b05d13000_20
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 46
+        width: 47
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de7af8de532cc6c50800000000000000
+      internalID: 6659911485848791021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunsmoke.png.6ad6f72a4c8ac698dfdfa13b05d13000_21
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 50
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b952af47645af6220800000000000000
+      internalID: 2481383641733277083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
