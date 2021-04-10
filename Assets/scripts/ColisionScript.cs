@@ -12,6 +12,7 @@ public class ColisionScript : MonoBehaviour
 			
             Destroy(this.gameObject);
             Debug.Log("Opa ikrito");
+            SoundManager.PlaySound("collect");
             Countt.scores += 1;
         }
     }
