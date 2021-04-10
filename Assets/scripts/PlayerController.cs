@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    public ParticleSystem dust;
     private Animator animator;
     public float Speed = 6f;
     public float RuningSpeed = 12f;
@@ -24,6 +25,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         _rigidbody2D = GetComponent<Rigidbody2D>();
+        dust.Play();
     }
 
     // Update is called once per frame
@@ -31,7 +33,7 @@ public class PlayerController : MonoBehaviour
     {
         
         
-        if (Input.GetButtonDown("Jump") && jumped <=Countt.scores && Countt.scores >0)
+        if (Input.GetButtonDown("Jump") && jumped == 1)
         {
             
                 _rigidbody2D.AddForce(new Vector2(0, Jump), ForceMode2D.Impulse);
@@ -39,23 +41,18 @@ public class PlayerController : MonoBehaviour
                 jumped++;
             
         }
-
         if (Mathf.Abs(_rigidbody2D.velocity.y) < 0.001f)
         {
             jumped = 1;
-        }
-
-        if (Mathf.Abs(_rigidbody2D.velocity.y) < 0.001f)
-        {
             animator.SetBool("Jump", false);
         }
+
         if (Input.GetKeyDown(KeyCode.LeftShift))
         {
             Speed2 = RuningSpeed;
             animator.SetBool("Runing", true);
         }
-
-        if (Input.GetKeyUp(KeyCode.LeftShift))
+        else
         {
             Speed2 = Speed;
             animator.SetBool("Runing", false);
