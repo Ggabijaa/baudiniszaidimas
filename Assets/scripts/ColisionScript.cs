@@ -4,16 +4,19 @@ using UnityEngine;
 
 public class ColisionScript : MonoBehaviour
 {
-	
+	 public ParticleSystem particle;
  
     void OnTriggerEnter2D(Collider2D col)
     {
         if (col.gameObject.tag == "Player")
         {
-            Destroy(this.gameObject);
-            Debug.Log("Opa ikrito");
+			this.gameObject.GetComponent<Renderer>().enabled = false;
+ 			particle.Play();
+			Debug.Log("Opa ikrito");
             SoundManager.PlaySound("collect");
-            Countt.scores += 1;
+			PlayerController.current -=10;
+            //Countt.scores += 1;
+            Destroy(this.gameObject, 0.5f);
         }
     }
 }

@@ -37,7 +37,7 @@ public class SoundManager : MonoBehaviour
             case "Jump":
                 audioScr.PlayOneShot(JumpSound);
                 break;
-			case "Fire":
+			case "fire":
                 audioScr.PlayOneShot(FireSound);
                 break;
 			case "Walk":

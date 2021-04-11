@@ -9,7 +9,6 @@ public class restartOnCollide : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            
             Debug.Log("dead");
             SoundManager.PlaySound("slimy2");
             SceneManager.LoadScene("caves");

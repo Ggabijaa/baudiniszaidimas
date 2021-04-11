@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public ParticleSystem dust;
+    
     private Animator animator;
     public float Speed = 6f;
     public float RuningSpeed = 12f;
@@ -15,6 +15,12 @@ public class PlayerController : MonoBehaviour
 
     private Rigidbody2D _rigidbody2D;
     private bool facingRight = false;
+
+	public int Max = 100;
+	public static int current = 10;
+    public HealtBarScript healt;
+
+	private AudioSource footstep;
     // Start is called before the first frame update
    
     void Awake()
@@ -25,13 +31,17 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         _rigidbody2D = GetComponent<Rigidbody2D>();
-        dust.Play();
+        footstep = GetComponent<AudioSource>();
+		current = Max;
+		healt.setMaxHealth(Max);
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if(current >= Max)
+		current = Max;
+        healt.setHealtd(current);
         
         if (Input.GetButtonDown("Jump") && jumped == 1)
         {
@@ -52,7 +62,7 @@ public class PlayerController : MonoBehaviour
             Speed2 = RuningSpeed;
             animator.SetBool("Runing", true);
         }
-        else
+        else if (Input.GetKeyUp(KeyCode.LeftShift))
         {
             Speed2 = Speed;
             animator.SetBool("Runing", false);
@@ -60,7 +70,10 @@ public class PlayerController : MonoBehaviour
 
         move(Speed2);
     }
-
+	private void Footstep()
+    {
+        footstep.Play();
+    }
     private void move(float speed)
     {
         float horizontalValue= Input.GetAxisRaw("Horizontal");
