@@ -4,11 +4,13 @@ using UnityEngine;
 
 public class Collision : MonoBehaviour
 {
-    void OnCollisionEnter2D(Collision2D collision){
-        if (collision.gameObject.tag == "Player")
+    void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.gameObject.tag == "Player")
         {
+			SoundManager.PlaySound("Fire");
             Debug.Log("Ziurek kur eini");
             Countt.scores -= 1;
-        }
+		}
     }
 }

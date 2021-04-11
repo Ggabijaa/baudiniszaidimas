@@ -6,9 +6,9 @@ public class ColisionScript : MonoBehaviour
 {
 	
  
-    void OnCollisionEnter2D(Collision2D collision)
+    void OnTriggerEnter2D(Collider2D col)
     {
-        if (collision.gameObject.tag == "Player")
+        if (col.gameObject.tag == "Player")
         {
             Destroy(this.gameObject);
             Debug.Log("Opa ikrito");

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SoundManager : MonoBehaviour
 {
-    public static AudioClip slimeSound, collectHPSound;
+    public static AudioClip slimeSound, collectHPSound, JumpSound, FireSound, WalkSound;
 
     private static AudioSource audioScr;
     // Start is called before the first frame update
@@ -12,7 +12,9 @@ public class SoundManager : MonoBehaviour
     {
         collectHPSound = Resources.Load<AudioClip>("collect");
         slimeSound = Resources.Load<AudioClip>("slimy");
-        
+        JumpSound = Resources.Load<AudioClip>("Jump");
+		FireSound = Resources.Load<AudioClip>("Fire");
+		WalkSound = Resources.Load<AudioClip>("Walk");
         audioScr = GetComponent<AudioSource>();
     }
 
@@ -31,6 +33,15 @@ public class SoundManager : MonoBehaviour
                 break;
             case "slimy":
                 audioScr.PlayOneShot(slimeSound);
+                break;
+            case "Jump":
+                audioScr.PlayOneShot(JumpSound);
+                break;
+			case "Fire":
+                audioScr.PlayOneShot(FireSound);
+                break;
+			case "Walk":
+                audioScr.PlayOneShot(WalkSound);
                 break;
         }
     }

@@ -35,7 +35,7 @@ public class PlayerController : MonoBehaviour
         
         if (Input.GetButtonDown("Jump") && jumped == 1)
         {
-            
+            	SoundManager.PlaySound("Jump");
                 _rigidbody2D.AddForce(new Vector2(0, Jump), ForceMode2D.Impulse);
                 animator.SetBool("Jump", true);
                 jumped++;
