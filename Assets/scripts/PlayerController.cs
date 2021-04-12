@@ -17,8 +17,11 @@ public class PlayerController : MonoBehaviour
     private bool facingRight = false;
 
 	public int Max = 100;
-	public static int current = 10;
+	public int MaxHealt = 100;
+	public static int current = 0;
+	public static int currentHealt = 0;
     public HealtBarScript healt;
+	public HealtBarScript armor;
 
 	private AudioSource footstep;
     // Start is called before the first frame update
@@ -32,8 +35,11 @@ public class PlayerController : MonoBehaviour
     {
         _rigidbody2D = GetComponent<Rigidbody2D>();
         footstep = GetComponent<AudioSource>();
-		current = Max;
-		healt.setMaxHealth(Max);
+		current = 50;
+		currentHealt = MaxHealt;
+		healt.setMaxHealth(MaxHealt);
+		armor.setMaxHealth(Max);
+		armor.setHealtd(current);
     }
 
     // Update is called once per frame
@@ -41,8 +47,15 @@ public class PlayerController : MonoBehaviour
     {
         if(current >= Max)
 		current = Max;
-        healt.setHealtd(current);
-        
+		if(current < 0)
+		current = 0;
+        armor.setHealtd(current);
+        if(currentHealt >= MaxHealt)
+		currentHealt = MaxHealt;
+		if(current < 0)
+		currentHealt = 0;
+		healt.setHealtd(currentHealt);
+
         if (Input.GetButtonDown("Jump") && jumped == 1)
         {
             	SoundManager.PlaySound("Jump");
@@ -56,7 +69,7 @@ public class PlayerController : MonoBehaviour
             jumped = 1;
             animator.SetBool("Jump", false);
         }
-
+		Speed2 = Speed;
         if (Input.GetKeyDown(KeyCode.LeftShift))
         {
             Speed2 = RuningSpeed;

@@ -12,11 +12,18 @@ public float time = 0;
         {
 			time += Time.deltaTime;
 			if(time > 0.1){
-			Countt.scores -= 1;
+				if (PlayerController.current > 0)
+				{
+					PlayerController.current -=10;
+				}
+				else
+				{
+					PlayerController.currentHealt -=10;
+				}
+
 			SoundManager.PlaySound("fire");
 			time = 0;
-			Debug.Log("Ziurek kur eini");
-			Debug.Log(time);
+			Debug.Log(PlayerController.current);
 			}
 		}
     }

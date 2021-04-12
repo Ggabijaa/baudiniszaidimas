@@ -1,7 +1,19 @@
 fileFormatVersion: 2
 guid: aeb5bccff4b02e6488151d649f9e2111
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 5492328645000066652
+    second: durys_0
+  - first:
+      213: -5856967357055149692
+    second: durys_1
+  - first:
+      213: -8621423025349121003
+    second: durys_2
+  - first:
+      213: -1772907037531892443
+    second: durys_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +53,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,9 +87,105 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: durys_0
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 123
+        width: 51
+        height: 53
+      alignment: 9
+      pivot: {x: 0.64648795, y: 0.937462}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c567ee29dcba83c40800000000000000
+      internalID: 5492328645000066652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: durys_1
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 67
+        width: 51
+        height: 55
+      alignment: 9
+      pivot: {x: 0.63638514, y: 0.9121864}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4895ba5683fd7bea0800000000000000
+      internalID: -5856967357055149692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: durys_2
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 12
+        width: 51
+        height: 54
+      alignment: 9
+      pivot: {x: 0.6414367, y: 0.92459005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51c21bbcf6d8a5880800000000000000
+      internalID: -8621423025349121003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: durys_3
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 177
+        width: 51
+        height: 53
+      alignment: 9
+      pivot: {x: 0.64648783, y: 0.93260133}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5251f10517e5567e0800000000000000
+      internalID: -1772907037531892443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

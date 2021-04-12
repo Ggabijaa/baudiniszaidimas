@@ -1,0 +1,708 @@
+fileFormatVersion: 2
+guid: 98d3a3a6bda9a944d97a85a80c90695e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3269490299028712532
+    second: PILL_0
+  - first:
+      213: -2275900601062844952
+    second: PILL_1
+  - first:
+      213: -4281749538708740692
+    second: PILL_2
+  - first:
+      213: -2702472303036006539
+    second: PILL_3
+  - first:
+      213: -7387965670451538375
+    second: PILL_5
+  - first:
+      213: 8140354582141296637
+    second: PILL_6
+  - first:
+      213: 4492287727522679799
+    second: PILL_7
+  - first:
+      213: -7474081887504170054
+    second: PILL_8
+  - first:
+      213: -9114122404641396359
+    second: PILL_9
+  - first:
+      213: -4869251017718076249
+    second: PILL_11
+  - first:
+      213: -320127483637462719
+    second: PILL_12
+  - first:
+      213: 147541872806190373
+    second: PILL_13
+  - first:
+      213: -5479344922853906705
+    second: PILL_14
+  - first:
+      213: 5720156470977007866
+    second: PILL_15
+  - first:
+      213: -604601124329335942
+    second: PILL_16
+  - first:
+      213: 9170861685327775045
+    second: PILL_17
+  - first:
+      213: -7780372585521050313
+    second: PILL_18
+  - first:
+      213: -544340991770602521
+    second: PILL_19
+  - first:
+      213: -7811040037303758228
+    second: PILL_20
+  - first:
+      213: -773372926715199224
+    second: PILL_21
+  - first:
+      213: -4414598804348112496
+    second: PILL_22
+  - first:
+      213: -4725370835285792311
+    second: PILL_23
+  - first:
+      213: 168077281018681198
+    second: PILL_24
+  - first:
+      213: 39625529374868765
+    second: PILL_25
+  - first:
+      213: 8846017878533435387
+    second: PILL_26
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PILL_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 66
+        height: 132
+      alignment: 9
+      pivot: {x: 0.47641078, y: 0.4587206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45c213eba109f5d20800000000000000
+      internalID: 3269490299028712532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PILL_1
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 63
+        width: 82
+        height: 133
+      alignment: 9
+      pivot: {x: 0.5094919, y: 0.45903102}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e51d8926706a60e0800000000000000
+      internalID: -2275900601062844952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PILL_2
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 58
+        width: 105
+        height: 135
+      alignment: 9
+      pivot: {x: 0.48517254, y: 0.45963806}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca5a210fa7b2494c0800000000000000
+      internalID: -4281749538708740692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PILL_3
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 54
+        width: 116
+        height: 124
+      alignment: 9
+      pivot: {x: 0.46644697, y: 0.46861243}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57ff43a32c3ee7ad0800000000000000
+      internalID: -2702472303036006539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PILL_5
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 50
+        width: 131
+        height: 113
+      alignment: 9
+      pivot: {x: 0.44652015, y: 0.4931112}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93694f7ad5ca87990800000000000000
+      internalID: -7387965670451538375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PILL_6
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 50
+        width: 139
+        height: 91
+      alignment: 9
+      pivot: {x: 0.44959858, y: 0.4999999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dff514eec5958f070800000000000000
+      internalID: 8140354582141296637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PILL_7
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 43
+        width: 143
+        height: 94
+      alignment: 9
+      pivot: {x: 0.4618953, y: 0.5082808}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb06d313efc75e30800000000000000
+      internalID: 4492287727522679799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PILL_8
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 34
+        width: 138
+        height: 112
+      alignment: 9
+      pivot: {x: 0.46615466, y: 0.5347503}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab302296f1ab64890800000000000000
+      internalID: -7474081887504170054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PILL_9
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 40
+        width: 130
+        height: 122
+      alignment: 9
+      pivot: {x: 0.45808482, y: 0.5255215}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 979abef26f1248180800000000000000
+      internalID: -9114122404641396359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PILL_11
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 42
+        width: 96
+        height: 137
+      alignment: 9
+      pivot: {x: 0.47567368, y: 0.5397725}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ac64be6ff1fc6cb0800000000000000
+      internalID: -4869251017718076249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PILL_12
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 49
+        width: 84
+        height: 140
+      alignment: 9
+      pivot: {x: 0.4907314, y: 0.5389204}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14903feefbdae8bf0800000000000000
+      internalID: -320127483637462719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PILL_13
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 59
+        width: 71
+        height: 131
+      alignment: 9
+      pivot: {x: 0.4890343, y: 0.55347824}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52ddb163d8c2c0200800000000000000
+      internalID: 147541872806190373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PILL_14
+      rect:
+        serializedVersion: 2
+        x: 1938
+        y: 59
+        width: 72
+        height: 131
+      alignment: 9
+      pivot: {x: 0.52162004, y: 0.55347824}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe6e37fc2d475f3b0800000000000000
+      internalID: -5479344922853906705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PILL_15
+      rect:
+        serializedVersion: 2
+        x: 2094
+        y: 49
+        width: 84
+        height: 140
+      alignment: 9
+      pivot: {x: 0.51853144, y: 0.54448044}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af09c30f004126f40800000000000000
+      internalID: 5720156470977007866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PILL_16
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 42
+        width: 97
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a735c811b760c97f0800000000000000
+      internalID: -604601124329335942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PILL_17
+      rect:
+        serializedVersion: 2
+        x: 2407
+        y: 40
+        width: 128
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 545c33e0d12754f70800000000000000
+      internalID: 9170861685327775045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PILL_18
+      rect:
+        serializedVersion: 2
+        x: 2519
+        y: 0
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73d84db0b50960490800000000000000
+      internalID: -7780372585521050313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PILL_19
+      rect:
+        serializedVersion: 2
+        x: 2606
+        y: 34
+        width: 137
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e354d480cc1278f0800000000000000
+      internalID: -544340991770602521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PILL_20
+      rect:
+        serializedVersion: 2
+        x: 2759
+        y: 43
+        width: 143
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c62d722887c999390800000000000000
+      internalID: -7811040037303758228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PILL_21
+      rect:
+        serializedVersion: 2
+        x: 2939
+        y: 50
+        width: 139
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8018c30bb6d6445f0800000000000000
+      internalID: -773372926715199224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PILL_22
+      rect:
+        serializedVersion: 2
+        x: 3118
+        y: 50
+        width: 131
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09177f8e6c13cb2c0800000000000000
+      internalID: -4414598804348112496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PILL_23
+      rect:
+        serializedVersion: 2
+        x: 3294
+        y: 54
+        width: 116
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c9accae24c1c6eb0800000000000000
+      internalID: -4725370835285792311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PILL_24
+      rect:
+        serializedVersion: 2
+        x: 3338
+        y: 39
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e679ee58561255200800000000000000
+      internalID: 168077281018681198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PILL_25
+      rect:
+        serializedVersion: 2
+        x: 3453
+        y: 58
+        width: 105
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d150d628537cc8000800000000000000
+      internalID: 39625529374868765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PILL_26
+      rect:
+        serializedVersion: 2
+        x: 3614
+        y: 0
+        width: 82
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bff6dbe646e53ca70800000000000000
+      internalID: 8846017878533435387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

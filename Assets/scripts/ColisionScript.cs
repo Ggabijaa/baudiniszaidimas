@@ -14,7 +14,7 @@ public class ColisionScript : MonoBehaviour
  			particle.Play();
 			Debug.Log("Opa ikrito");
             SoundManager.PlaySound("collect");
-			PlayerController.current -=10;
+			PlayerController.current +=10;
             //Countt.scores += 1;
             Destroy(this.gameObject, 0.5f);
         }
