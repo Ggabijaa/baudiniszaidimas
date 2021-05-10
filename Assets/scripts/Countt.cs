@@ -10,25 +10,18 @@ public class Countt : MonoBehaviour
     {
         
         
-        countText.text = "Gyvybės: ";
-        scores = 0;
+        countText.text = "Coins: ";
+        scores = PlayerController.coins;
     }
 
     void Update()
     {
-        countText.text = "Gyvybės: "+scores;
-        Health(scores);
+        countText.text = "Coins: " + scores;
+        Coins(scores);
     }
 
-    void Health(int scores)
+    void Coins(int scores)
     {
-        if (scores < 3)
-        {
-            countText.color = Color.red;
-        }
-        else
-        {
-            countText.color = Color.green;
-        }
+        PlayerController.coins = scores;
     }
 }

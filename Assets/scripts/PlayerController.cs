@@ -6,23 +6,31 @@ public class PlayerController : MonoBehaviour
 {
     
     private Animator animator;
-    public float Speed = 6f;
-    public float RuningSpeed = 12f;
-    private float Speed2 = 0f;
 
-    public float Jump = 2f;
+	public static float horizontalValue;
+    public static float Speed = 6f;
+    public float RuningSpeed = 12f;
+	public float Speed2 = 0f;
+
+    public static float Jump = 7f;
     private int jumped = 1;
 
     private Rigidbody2D _rigidbody2D;
-    private bool facingRight = false;
+    public static bool facingRight = false;
+	
+	public static int ammo = 5;
+	public static int coins = 50;
 
-	public int Max = 100;
-	public int MaxHealt = 100;
+	public static int Max = 100;
+	public static int MaxHealt = 100;
+
 	public static int current = 0;
 	public static int currentHealt = 0;
+
     public HealtBarScript healt;
 	public HealtBarScript armor;
 
+	private float time = 0;
 	private AudioSource footstep;
     // Start is called before the first frame update
    
@@ -33,10 +41,11 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
+		Time.timeScale = 1f;
         _rigidbody2D = GetComponent<Rigidbody2D>();
         footstep = GetComponent<AudioSource>();
 		current = 50;
-		currentHealt = MaxHealt;
+		currentHealt = 50;
 		healt.setMaxHealth(MaxHealt);
 		armor.setMaxHealth(Max);
 		armor.setHealtd(current);
@@ -45,6 +54,8 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+		time += Time.deltaTime;
+		//Debug.Log(time);
         if(current >= Max)
 		current = Max;
 		if(current < 0)
@@ -89,21 +100,25 @@ public class PlayerController : MonoBehaviour
     }
     private void move(float speed)
     {
-        float horizontalValue= Input.GetAxisRaw("Horizontal");
+        horizontalValue= Input.GetAxisRaw("Horizontal");
         animator.SetFloat("Walking",Mathf.Abs(horizontalValue));
         var move = Input.GetAxis("Horizontal");
         transform.position += new Vector3(move, 0, 0) * Time.deltaTime * speed;
+        Debug.Log(facingRight);
         
-        
-        
+        // Debug.Log(horizontalValue);
         
         if (facingRight && horizontalValue > 0)
         {
+			
+			//transform.Rotate(0f,180f,0f);
             transform.localScale = new Vector3(1, 1, 1);
             facingRight = false;
         }
         else if (!facingRight && horizontalValue < 0)
         {
+ 			
+			//transform.Rotate (0f ,180f , 0f);
             transform.localScale = new Vector3(-1, 1, 1);
             facingRight = true;
         }
