@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    
+    public AudioSource audioScr1;
     private Animator animator;
-
+	
+	public static float Score = 0;
+	 
 	public static float horizontalValue;
     public static float Speed = 6f;
     public float RuningSpeed = 12f;
@@ -18,7 +20,7 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D _rigidbody2D;
     public static bool facingRight = false;
 	
-	public static int ammo = 5;
+	public static int ammo = 10;
 	public static int coins = 50;
 
 	public static int Max = 100;
@@ -32,6 +34,10 @@ public class PlayerController : MonoBehaviour
 
 	private float time = 0;
 	private AudioSource footstep;
+
+	public GameObject Main;
+	public GameObject End;
+	int times = 8;
     // Start is called before the first frame update
    
     void Awake()
@@ -54,6 +60,7 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+		
 		time += Time.deltaTime;
 		//Debug.Log(time);
         if(current >= Max)
@@ -66,7 +73,20 @@ public class PlayerController : MonoBehaviour
 		if(current < 0)
 		currentHealt = 0;
 		healt.setHealtd(currentHealt);
-
+		if(currentHealt==0)
+		{
+			if(times > 0)
+			{
+				
+				SoundManager.PlaySound("nos");	
+				times-=1;
+			}
+			audioScr1.Stop();
+			Time.timeScale = 0f;
+            Score = time;
+			Main.SetActive(false);
+			End.SetActive(true);
+		}
         if (Input.GetButtonDown("Jump") && jumped == 1)
         {
             	SoundManager.PlaySound("Jump");
@@ -104,7 +124,7 @@ public class PlayerController : MonoBehaviour
         animator.SetFloat("Walking",Mathf.Abs(horizontalValue));
         var move = Input.GetAxis("Horizontal");
         transform.position += new Vector3(move, 0, 0) * Time.deltaTime * speed;
-        Debug.Log(facingRight);
+        
         
         // Debug.Log(horizontalValue);
         
@@ -123,4 +143,5 @@ public class PlayerController : MonoBehaviour
             facingRight = true;
         }
     }
+
 }

@@ -28,10 +28,19 @@ public class Bullet : MonoBehaviour {
 	}
     void OnTriggerEnter2D (Collider2D hitInfo)
     {
+	Debug.Log(hitInfo.name);
+	if(hitInfo.name == "Melynius")
+	{
+	SoundManager.PlaySound("hits");
+	en.hp -=50;
+	Destroy(gameObject);
+	}
 	if(hitInfo.name != "ED")
 	{
 	Destroy(gameObject);
+
 	}
+	
     }
 	
 }

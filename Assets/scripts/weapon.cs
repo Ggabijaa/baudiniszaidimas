@@ -17,7 +17,7 @@ public class weapon : MonoBehaviour {
         if (timeBtwShots <= 0)
         {
 
-            if (Input.GetButtonDown("Fire1"))
+            if (Input.GetButtonDown("Submit"))
             {
 if(CountAmoo.scores>=1){
                // Instantiate(shotEffect, shotPoint.position, Quaternion.identity);
