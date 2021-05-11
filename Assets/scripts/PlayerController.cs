@@ -38,6 +38,7 @@ public class PlayerController : MonoBehaviour
 	public GameObject Main;
 	public GameObject End;
 	int times = 8;
+int active = 1;
     // Start is called before the first frame update
    
     void Awake()
@@ -73,8 +74,9 @@ public class PlayerController : MonoBehaviour
 		if(current < 0)
 		currentHealt = 0;
 		healt.setHealtd(currentHealt);
-		if(currentHealt==0)
+		if(currentHealt==0 && active == 1)
 		{
+			
 			if(times > 0)
 			{
 				
@@ -86,6 +88,7 @@ public class PlayerController : MonoBehaviour
             Score = time;
 			Main.SetActive(false);
 			End.SetActive(true);
+active +=1;
 		}
         if (Input.GetButtonDown("Jump") && jumped == 1)
         {
