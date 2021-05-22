@@ -38,7 +38,7 @@ public class PlayerController : MonoBehaviour
 	public GameObject Main;
 	public GameObject End;
 	int times = 8;
-int active = 1;
+	int active = 1;
     // Start is called before the first frame update
    
     void Awake()
