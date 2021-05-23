@@ -22,7 +22,7 @@ public class EnamyHealth : MonoBehaviour
         hp = hp - dam;
         if (hp == 0)
         {
-            SoundManager.PlaySound("monster");
+            SoundManager.PlaySound("monss");
             hp = 100;
             Destroy(this.gameObject);
             Countt.scores += coins;

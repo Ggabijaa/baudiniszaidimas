@@ -14,8 +14,8 @@ public class Baubas : MonoBehaviour
     public static int damage = 200;
     public static int damagehealth = 200;
     public static float speed = 2f;
-    public static float range = 15f;
-    public static float ShotingRange = 15f;
+    public static float range = 25f;
+    public static float ShotingRange = 20f;
     
     public Transform player;
     

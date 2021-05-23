@@ -28,26 +28,17 @@ public class End : MonoBehaviour
     public Text f3;
     public Text f4;
 
-    public void sortt(Player[] players)
+    public void sortt(Player[] players, int o)
     {
-        for(int i = 0; i < players.Length; i++)
-        {
-            for(int j = 0; j < players.Length; j++)
-            {
-                if(players[i].score < players[j].score)
+        for (int i = 0; i < o - 1; i++)
+            for (int j = 0; j < o - i - 1; j++)
+                if (players[j].score < players[j + 1].score)
                 {
-                    Player min;
-                    min = players[i];
-                    players[i] = players[j];
-                    players[j] = min;
-                    if(j > 0)
-                    {
-                        j--;
-                    }
-                    
+                    // swap temp and arr[i]
+                    Player temp = players[j];
+                    players[j] = players[j + 1];
+                    players[j + 1] = temp;
                 }
-            }
-        }
         
     }
 
@@ -72,7 +63,7 @@ public class End : MonoBehaviour
            
         }
 
-        //sortt(players);
+        sortt(players,i);
         f1.text = players[0].name +"   "+ players[0].score.ToString();
         f2.text = players[1].name+"   "+ players[1].score.ToString();
         f3.text = players[2].name+"   "+ players[2].score.ToString();

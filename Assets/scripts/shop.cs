@@ -25,11 +25,11 @@ public class shop : MonoBehaviour
 	{
 
 	
-	int price = 5;
+	int price = 500;
 	if(Countt.scores >= price && amountspeed > 0)
 	{
 	Countt.scores -= price;
-	float add = PlayerController.Speed / 4f;
+	float add = PlayerController.Speed / 6f;
 	PlayerController.Speed += add;
 	amountspeed--;
 	speedas.text ="Left: " + amountspeed;
@@ -41,7 +41,7 @@ public class shop : MonoBehaviour
 	public void jump()
 	{
 	
-	int price = 5;
+	int price = 500;
 	if(Countt.scores >= price && amountjump > 0)
 	{
 	Countt.scores -= price;
@@ -55,7 +55,7 @@ public class shop : MonoBehaviour
 
 	public void armor()
 	{
-	int price = 5;
+	int price = 50;
 	if(Countt.scores >= price)
 	{
 	Countt.scores -= price;
@@ -80,7 +80,7 @@ public class shop : MonoBehaviour
 
 	public void healths()
 	{
-	int price = 5;
+	int price = 50;
 	if(Countt.scores >= price)
 	{
 	Countt.scores -= price;
@@ -103,17 +103,17 @@ public class shop : MonoBehaviour
 	public void ammo()
 	{
 	
-		int price = 5;
+		int price = 50;
 		if(Countt.scores >= price)
 		{
 			Countt.scores -= price;
-			CountAmoo.scores += 10;
+			CountAmoo.scores += 5;
 		}
 	}
 	public void shooting()
 	{
 	
-		int price = 5;
+		int price = 500;
 		if(Countt.scores >= price && amountshoting >0)
 		{
 			Countt.scores -= price;

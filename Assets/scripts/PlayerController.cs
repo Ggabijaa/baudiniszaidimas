@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour
 	 
 	public static float horizontalValue;
     public static float Speed = 6f;
-    public float RuningSpeed = 12f;
+    public  float RuningSpeed = 12f;
 	public float Speed2 = 0f;
 
     public static float Jump = 7f;
