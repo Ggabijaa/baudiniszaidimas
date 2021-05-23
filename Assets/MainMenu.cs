@@ -12,6 +12,12 @@ public class MainMenu : MonoBehaviour
     // Start is called before the first frame update
     public void PlayGame()
     {
+        PlayerController.ammo = 20;
+        PlayerController.coins = 0;
+        PlayerController.current = 100;
+        PlayerController.currentHealt = 100;
+        PlayerController.time = 0f;
+        PlayerController.Score = 0f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 

@@ -1,15 +1,22 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class shop : MonoBehaviour
 { 
-	public AudioSource audioScr1;
-	public AudioSource audioScr2;
+	public AudioSource S;
+	public AudioSource P;
+	public Text speedas;
+	public Text jumpas;
+	public Text shoot;
+	private int amountshoting = 3;
+	private int amountjump = 2;
+	private int amountspeed = 3;
     public void UnPause()
     {
-	    audioScr1.Stop();
-	    audioScr2.Play();
+	    S.Stop();
+	    P.Play();
         Time.timeScale = 1f;
     }
 
@@ -19,11 +26,13 @@ public class shop : MonoBehaviour
 
 	
 	int price = 5;
-	if(Countt.scores >= price)
+	if(Countt.scores >= price && amountspeed > 0)
 	{
 	Countt.scores -= price;
 	float add = PlayerController.Speed / 4f;
 	PlayerController.Speed += add;
+	amountspeed--;
+	speedas.text ="Left: " + amountspeed;
 	}
 	
 	}
@@ -33,11 +42,13 @@ public class shop : MonoBehaviour
 	{
 	
 	int price = 5;
-	if(Countt.scores >= price)
+	if(Countt.scores >= price && amountjump > 0)
 	{
 	Countt.scores -= price;
 	float add = PlayerController.Jump / 4f;
 	PlayerController.Jump += add;
+	amountjump--;
+	jumpas.text ="Left: " + amountjump;
 	}
 	}
 
@@ -103,11 +114,12 @@ public class shop : MonoBehaviour
 	{
 	
 		int price = 5;
-		if(Countt.scores >= price)
+		if(Countt.scores >= price && amountshoting >0)
 		{
 			Countt.scores -= price;
-			
 			weapon.startTimeBtwShots /= 2f;
+			amountshoting--;
+			shoot.text = "Left: " + amountshoting;
 		}
 	}
 }

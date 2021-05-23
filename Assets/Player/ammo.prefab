@@ -93,10 +93,10 @@ GameObject:
   - component: {fileID: 457901254227665470}
   - component: {fileID: 843026279667830144}
   - component: {fileID: 2249365962254317670}
-  - component: {fileID: -9205028600265257695}
+  - component: {fileID: 1878320795418778383}
   m_Layer: 0
   m_Name: ammo
-  m_TagString: Untagged
+  m_TagString: bulet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -153,7 +153,7 @@ CircleCollider2D:
   m_Offset: {x: -0.000574328, y: 0.012980521}
   serializedVersion: 2
   m_Radius: 0.09363554
---- !u!114 &-9205028600265257695
+--- !u!114 &1878320795418778383
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -165,6 +165,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ea998c9d0ca4c54598bdbff2e5f53fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 15
+  speed: 20
   damage: 40
   rb: {fileID: 843026279667830144}

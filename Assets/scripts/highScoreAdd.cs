@@ -25,7 +25,7 @@ public class highScoreAdd : MonoBehaviour
     {
         //Write some text to the test.txt file
         StreamWriter writer = new StreamWriter(path, true);
-        writer.WriteLine(name +" "+ score);
+        writer.WriteLine(name +";"+ Mathf.Abs(score));
         writer.Close();
 
         //Re-import the file to update the reference in the editor

@@ -19,7 +19,7 @@ public class weapon : MonoBehaviour {
 
             if (Input.GetButtonDown("Submit"))
             {
-if(CountAmoo.scores>=1){
+                if(CountAmoo.scores>=1){
                // Instantiate(shotEffect, shotPoint.position, Quaternion.identity);
                 
                 //Instantiate(projectile, shotPoint.position, shotPoint.rotation);

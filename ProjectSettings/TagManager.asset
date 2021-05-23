@@ -7,6 +7,8 @@ TagManager:
   - DARig
   - Health
   - turn
+  - bulet
+  - Enamy
   layers:
   - Default
   - TransparentFX

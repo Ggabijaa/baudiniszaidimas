@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class PlayerController : MonoBehaviour
 {
     public AudioSource audioScr1;
@@ -20,19 +20,22 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D _rigidbody2D;
     public static bool facingRight = false;
 	
-	public static int ammo = 10;
-	public static int coins = 50;
+	public static int ammo = 20;
+	public static int coins = 0;
 
 	public static int Max = 100;
 	public static int MaxHealt = 100;
+	
 
+	
 	public static int current = 0;
 	public static int currentHealt = 0;
+	
 
     public HealtBarScript healt;
 	public HealtBarScript armor;
 
-	private float time = 0;
+	public static float time = 0;
 	private AudioSource footstep;
 
 	public GameObject Main;
@@ -51,8 +54,8 @@ public class PlayerController : MonoBehaviour
 		Time.timeScale = 1f;
         _rigidbody2D = GetComponent<Rigidbody2D>();
         footstep = GetComponent<AudioSource>();
-		current = 50;
-		currentHealt = 50;
+		current = 100;
+		currentHealt = 100;
 		healt.setMaxHealth(MaxHealt);
 		armor.setMaxHealth(Max);
 		armor.setHealtd(current);
@@ -74,7 +77,8 @@ public class PlayerController : MonoBehaviour
 		if(current < 0)
 		currentHealt = 0;
 		healt.setHealtd(currentHealt);
-		if(currentHealt==0 && active == 1)
+		
+		if(currentHealt<=0 && active == 1)
 		{
 			
 			if(times > 0)
@@ -85,11 +89,12 @@ public class PlayerController : MonoBehaviour
 			}
 			audioScr1.Stop();
 			Time.timeScale = 0f;
-            Score = time;
+            
 			Main.SetActive(false);
-			End.SetActive(true);
-active +=1;
+			End.SetActive(true); 
+			active +=1;
 		}
+		Score = time;
         if (Input.GetButtonDown("Jump") && jumped == 1)
         {
             	SoundManager.PlaySound("Jump");

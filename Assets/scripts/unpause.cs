@@ -4,12 +4,12 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class unpause : MonoBehaviour
 {
-    public AudioSource audioScr1;
-    public AudioSource audioScr2;
+    public AudioSource S;
+    public AudioSource P;
     public void UnPause()
     {
-        audioScr1.Stop();
-        audioScr2.Play();
+        S.Stop();
+        P.Play();
         Time.timeScale = 1f;
     }
     public void MainMenu()
